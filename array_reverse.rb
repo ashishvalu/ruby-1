@@ -1,9 +1,9 @@
+
 def reverse(arr)
 size = arr.size
 a = []
 size.times do|i|
   a << arr[arr.size-i-1]
-
     end
     a
 end

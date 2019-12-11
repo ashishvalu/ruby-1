@@ -8,7 +8,7 @@ def sort(arr)
         temp = arr[a-1]
         arr[a-1]= arr[i-1]
         arr[i-1]= temp
-    end
+     end
    end
  end
  puts "sorting:#{arr}"

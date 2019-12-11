@@ -1,22 +1,24 @@
-print "Enter a first num"
+print "Enter a number:"
 num1 =gets.chomp.to_i
-print "Enter a second num"
+print "Enter 2nd number:"
 num2 =gets.chomp.to_i
 
-def addition(num1 , num2)
+def add(num1,num2)
   num1 + num2
 end
-def subtraction(num1 , num2)
+
+def sub(num1 , num2)
   num1-num2
 end
-def mulitiply(num1 , num2)
+
+def muli(num1 , num2)
   num1 * num2
 end
-def divition(num1 , num2)
+
+def divi(num1 , num2)
   num1 / num2
 end
-
- puts "addition: #{addition(num1,num2)}"
- puts "subtraction: #{subtraction(num1,num2)}"
- puts "mulitiply: #{mulitiply(num1,num2)}"
- puts "divition: #{divition(num1,num2)}"
+puts "add:#{add(num1,num2)}"
+puts "sub:#{sub(num1,num2)}"
+puts "muli:#{muli(num1,num2)}"
+puts "divi:#{divi(num1,num2)}"
